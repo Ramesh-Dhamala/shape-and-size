@@ -28,5 +28,13 @@ row = int(input("Enter number of rows for Right-Angled Triangle(Aligned towards 
 for i in range(row,0,-1):
     print(" "*(row-i)+"*"*i)
     
+# Right-Angled triangle (Aligned towards downwards)
+row = int(input("Enter number of rows for Right-Angled Triangle(Aligned towards downwards):"))
+for i in range(row,0,-1):
+    print(" "*(row-i)+"*"*i)
+
+
+
+    
     
    
